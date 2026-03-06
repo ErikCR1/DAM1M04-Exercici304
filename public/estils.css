@@ -1,0 +1,20 @@
+#tauler {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 4px solid #333;
+    margin: 20px auto;
+    background: #ccc;
+}
+
+.peca {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url('./imatges/unnamed.jpg');
+    background-size: 300px 300px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
